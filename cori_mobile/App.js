@@ -1,21 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+import * as React from 'react';
+import StackContainer from './screens/navigation/stack';
 
-import React from 'react';
-import type {Node} from 'react';
-import {Text, View} from 'react-native';
-
-const App: () => Node = () => {
-  return (
-    <View>
-      <Text>홈</Text>
-    </View>
-  );
-};
+function App() {
+  return <StackContainer />;
+}
 
 export default App;
